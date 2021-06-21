@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity_2">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/note"/>
+
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:text="@string/str2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edittext12"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:textSize="25dp"
+        android:layout_height="200dp"/>
+
+    <Button
+        android:id="@+id/btnFill"
+        android:onClick="onClick"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:text="@string/notes"
+        android:layout_height="75dp"/>
+
+    <TextView
+        android:id="@+id/txtRes2"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+</LinearLayout>

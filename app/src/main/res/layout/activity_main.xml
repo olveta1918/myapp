@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <TextView
+        android:id="@+id/textView1"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Калькулятор"/>
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:text="Введите 1 число: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edittext1"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:textSize="25dp"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:text="Введите 2 число: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edittext2"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:textSize="25dp"
+        android:layout_height="50dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+    >
+
+        <Button
+            android:id="@+id/btnPlus"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp"
+            android:onClick="onPlus"
+            android:text="@string/tplus" />
+    <Button
+        android:id="@+id/btnMinus"
+        android:onClick="onMinus"
+        android:layout_width="200dp"
+        android:text="@string/tminus"
+        android:layout_height="120dp"
+        />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/btnMult"
+            android:layout_width="200dp"
+            android:onClick="onMultp"
+            android:text="@string/tmul"
+            android:layout_marginRight="15dp"
+            android:layout_height="120dp"
+            />
+        <Button
+            android:id="@+id/btnDel"
+            android:onClick="onDel"
+            android:layout_width="200dp"
+            android:text="@string/tdel"
+            android:layout_height="120dp"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtRes"
+        android:textSize="25dp"
+        android:text="Результат: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/textto2"
+        android:onClick="onClickSecond"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:text="@string/tstr1"
+        android:layout_height="75dp"/>
+
+</LinearLayout>

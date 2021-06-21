@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">myapp</string>
+    <string name="tplus">+</string>
+    <string name="tminus">-</string>
+    <string name="tmul">*</string>
+    <string name="tdel">/</string>
+    <string name="tstr1">Перейти на второй экран</string>
+    <string name="TOAST_STRING">Одно из полей некорректно заполнено</string>
+    <string name="str2">Введите текст:</string>
+    <string name="note">Блокнот</string>
+    <string name="notes">Записать</string>
+
+    <string name="title_activity_main2">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+
+</resources>
